@@ -1,0 +1,17 @@
+section.myfooter {
+  background-color: black;
+  max-width: 100%;
+  color: white;
+  font-family: montserrat;
+  font-size: 16px;
+}
+.myfooter .nav-item:hover {
+  text-decoration: underline;
+}
+.myfooter .nav-item {
+  margin-right: 2%;
+}
+.myfooter p {
+  font-size: 26px;
+  font-family: "Great Vibes", cursive;
+}

@@ -1,0 +1,131 @@
+.myproduct {
+  font-family: montserrat;
+  font-size: 16px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0;
+  top: 0;
+  left: 0;
+  margin-top: 140px;
+  margin-bottom: 61px;
+}
+.myproduct .myseacrch {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.myproduct .myinput {
+  height: 40px;
+  width: 300px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 0 0 2px rgba(0, 0, 0, 0.05),
+    0 0 3px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05),
+    0 0 5px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05),
+    0 0 5px rgba(0, 0, 0, 0.05);
+}
+.myproduct .btn {
+  background-color: #fac0b2;
+  border-radius: 50px;
+  margin: 0 20px;
+}
+.myproduct .btn:hover {
+  box-shadow: 15px 1px #344a5f;
+}
+.myproduct .search-result {
+  display: none;
+  background: #fff;
+  position: absolute;
+  width: 300px;
+  border-radius: 30px;
+  padding: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 0 0 2px rgba(0, 0, 0, 0.05),
+    0 0 3px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05),
+    0 0 5px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05),
+    0 0 5px rgba(0, 0, 0, 0.05);
+}
+.myproduct .search-result li {
+  list-style: none;
+  text-align: left;
+}
+.myproduct .search-result li a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #222;
+  font-size: 18px;
+  font-weight: bold;
+}
+.myproduct .search-result li a:hover {
+  background: #eee;
+}
+.myproduct a.list-group-item.list-group-item-action {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.myproduct a.list-group-item.list-group-item-action:hover {
+  background-color: #97bfd1;
+  color: white;
+}
+.myproduct .grid-container {
+  margin: 0px 0px 20px 60px;
+  display: grid;
+  gap: 50px 0px;
+  grid-template-columns: auto auto auto;
+  float: left;
+}
+.myproduct .grid-item {
+  margin-right: 50px;
+}
+.myproduct .card {
+  width: 320px;
+  height: 387px;
+  position: relative;
+  padding: 5px;
+}
+.myproduct .card-img-top {
+  height: 270px;
+  width: 295px;
+}
+.myproduct p.card-title {
+  font-size: 15px;
+  text-align: justiy;
+  width: 100%;
+  line-height: normal;
+}
+.myproduct p.card-text {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 3px;
+}
+
+@media (max-width: 991px) {
+  .myproduct .grid-item {
+    margin-right: 30px;
+  }
+  .myproduct .card {
+    width: 220px;
+    height: 287px;
+    position: relative;
+    padding: 3px;
+  }
+  .myproduct .card-img-top {
+    height: 170px;
+    width: 195px;
+  }
+  .myproduct p.card-title {
+    font-size: 13px;
+    text-align: justiy;
+    width: 100%;
+    line-height: normal;
+  }
+  .myproduct p.card-text {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2px;
+  }
+}

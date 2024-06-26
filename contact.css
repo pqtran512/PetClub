@@ -1,0 +1,71 @@
+.mycontact .my-container {
+  font-family: montserrat;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: auto;
+  width: 70%;
+  margin-top: 140px;
+  margin-bottom: 61px;
+  height: 550px;
+  position: relative;
+}
+
+.mycontact .info {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+.mycontact h4 {
+  font-size: 26px;
+  font-family: "Great Vibes", cursive;
+  color: gray;
+}
+
+.mycontact .icon {
+  float: left;
+}
+
+.mycontact .phone-num {
+  letter-spacing: 1px;
+}
+
+/* Left contact page */
+.mycontact .form-horizontal {
+  height: 45%;
+  font-weight: 400;
+  position: absolute;
+  bottom: 30px;
+}
+
+.mycontact .form-control,
+textarea {
+  max-height: 150px;
+  max-width: 400px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.mycontact .send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 400px;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.mycontact .alt-send-button {
+  width: 400px;
+  height: 34px;
+  transition: all 0.2s ease-in-out;
+}
+
+.mycontact .send-text {
+  display: block;
+  margin-top: 10px;
+  font: 700 12px "Lato", sans-serif;
+  letter-spacing: 2px;
+}
+
+.mycontact .alt-send-button:hover {
+  transform: translate3d(0px, -29px, 0px);
+}

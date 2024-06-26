@@ -1,0 +1,59 @@
+section.mynav {
+  font-family: montserrat;
+  font-size: 16px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+}
+.mynav nav {
+  background-color: #344a5f;
+}
+.mynav .navbar-logo img {
+  width: 55px;
+  height: 55px;
+}
+.mynav a.navbar-brand {
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-family: "Great Vibes", cursive;
+}
+.mynav .nav-item {
+  margin: 10px 20px 10px 20px;
+}
+.mynav .nav-item p {
+  color: white;
+  line-height: 0.3;
+}
+.mynav .nav-item .nav-link {
+  color: #fff;
+}
+.mynav .nav-item a.nav-link:hover {
+  color: orange;
+}
+.mynav .nav-item .dropdown-item {
+  color: gray;
+}
+.mynav .navbar-toggler {
+  border: none;
+  padding: 10px 6px;
+  outline: none;
+}
+.mynav .navbar-toggler span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #fff;
+}
+.mynav .navbar-toggler span + span {
+  margin-top: 4px;
+  width: 18px;
+  margin-left: 4px;
+}
+.mynav .navbar-toggler span + span + span {
+  width: 10px;
+  margin-left: 10px;
+}
